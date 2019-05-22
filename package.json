@@ -1,0 +1,31 @@
+{
+  "name": "botw-data",
+  "version": "0.0.0",
+  "description": "Starting point for Node.js projects",
+  "private": true,
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "eslint": "eslint --fix .",
+    "lint": "run-s eslint prettier",
+    "prettier": "prettier --loglevel warn --write **/*.{js,json,md,yml}"
+  },
+  "dependencies": {
+    "dotenv": "^7.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^7.6.1",
+    "@commitlint/config-conventional": "^7.6.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "husky": "^2.3.0",
+    "lint-staged": "^8.1.7",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^1.17.1"
+  }
+}
